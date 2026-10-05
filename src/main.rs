@@ -3,7 +3,7 @@ use serde_json::{json, Value};
 use std::net::SocketAddr;
 
 async fn index() -> &'static str {
-    "Hello from Rust (axum) on Naijacloud! Deployed by git push.\n"
+    "Hello from Rust (axum) on Naijacloud!\n"
 }
 
 async fn health() -> Json<Value> {
